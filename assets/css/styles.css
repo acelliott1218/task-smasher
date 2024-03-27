@@ -14,7 +14,7 @@ a {
 #menu-buttons {
     list-style:none;
     display:flex;
-    flex-direction:inline;
+    flex-direction:column;
     justify-content:space-evenly;
 }
 
@@ -71,6 +71,14 @@ hr {
     border-radius:5px;
     padding-right:50px;
     padding-left:50px;
+}
+
+#secrets-toggle:checked~#secrets {
+    display:block
+}
+
+#secrets {
+    display:none;
 }
 /* Taken from the love-running project */
 #hero {
