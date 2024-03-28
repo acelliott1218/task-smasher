@@ -151,80 +151,16 @@ tablet query */
 
     /* start of repositioning to make the website pretty on desktops/laptops, credit to https://www.w3schools.com/cssref/pr_grid-template-columns.php */
     #life-hacks {
-        display: inline-grid;
+        display:grid;
         align-items: center;
         grid-column-start: 1;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: 1fr 1fr;
     }
 
 
-    .top-pic {
-        margin-top: 2px;
-    }
-
-    .hack-picture {
-        border: 2px solid;
-        border-radius: 10px;
-    }
-
-    p {
-        position: relative;
-        right: 10%;
-        top: 9%;
-    }
-
-    .text-top {
-        position: relative;
-        top: 13%;
-    }
-
-    .center {
-        position: relative;
-
-        align-self: center;
-    }
-
-    .last-text {
-        top: 2.5%;
-    }
-
-
-
-}
+    
 
 /* large screen query */
 @media screen and (min-width:1440px) {
-
-    #life-hacks {
-        font-size: large;
-    }
-
-    #life-hacks p {
-        border:2px solid;
-        border-radius:10px;
-        background:rgba(234, 173, 82,0.5);
-    }
-
-    p {
-        position: relative;
-        right: 10%;
-        top: 7%;
-    }
-
-    .text-top {
-        position: relative;
-        top: 10%;
-        
-    }
-
-    .center {
-        position: relative;
-
-        align-self: center;
-    }
-
-    .last-text {
-        top: .5%;
-    }
 
 }
