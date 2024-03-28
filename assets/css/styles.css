@@ -87,19 +87,19 @@ header > hr {
 #secrets-toggle {
     display:none;
 }
-/* Taken from the love-running project */
+/* Taken from the love-running project, some help from https://reintech.io/blog/creating-responsive-hero-section-with-css */
 #hero {
     height: 400px;
     width: 100%;
-    background: url("../images/smash-background.webp") no-repeat center center/cover;
+    background: url("../images/task-smasher-hero.webp") no-repeat center center/cover;
     position: relative;
+
 }
 
+/* allows top menu elements to be underlined on mouseover */
 #menu-buttons > a:hover {
     text-decoration:underline;
 }
 
-
-
-
+ 
 
