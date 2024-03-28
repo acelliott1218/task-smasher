@@ -172,6 +172,7 @@ tablet query */
         align-items: center;
         grid-column-start: 1;
         grid-template-columns: 1fr 1fr;
+        justify-content:space-evenly;
     }
 
 /* large screen query */
