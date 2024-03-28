@@ -65,12 +65,15 @@ header > hr {
     text-decoration:underline;
 }
 
+/* code for the mindset box drop-down */
+
 #structures {
     background:rgba(213, 195, 161, 0.4);
     border: 3px solid black;
     border-radius:5px;
-    padding-right:50px;
+    padding-right:25px;
     padding-left:50px;
+    width:25vw
 }
 
 #secrets-toggle:checked~#secrets {
@@ -78,6 +81,10 @@ header > hr {
 }
 
 #secrets {
+    display:none;
+}
+
+#secrets-toggle {
     display:none;
 }
 /* Taken from the love-running project */
