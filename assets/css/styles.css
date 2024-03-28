@@ -53,6 +53,7 @@ nav {
 header {
     display:flex;
     justify-content:space-between;
+    font-size:larger;
 }
 
 .menu-toggle-label {
@@ -60,6 +61,7 @@ header {
     position:relative;
     align-self:center;
 }
+
 
 header > hr {
     display:none;
@@ -109,6 +111,15 @@ tablet query */
 
 @media screen and (min-width:768px){
 
+    #menu-buttons {
+        flex-direction:row;
+        font-size:large;
+        padding-top:50px;
+    }
+    
+    .hack-picture {
+        width:75%;
+    }
 }
 
 /* laptop query */
@@ -116,7 +127,57 @@ tablet query */
     #hero {
         height:100vh;
     }
+    .hack-picture {
+        width:40%;
+    }
 
+    #life-hacks hr {
+        display:none;
+    }
+
+    p {
+        line-height:50px;
+        font-size:large;
+    }
+    /* start of repositioning to make the website pretty on desktops/laptops */
+    #life-hacks {
+        display: flex;
+        flex-direction: column;
+        position:absolute;
+    }
+    
+    .top-pic {
+        margin-top:2px;
+    }
+    .hack-picture {
+        border:2px solid;
+    }
+
+    .right {
+        float:right;
+
+    }
+    
+
+    .right-text-1{
+        margin-left:450px;
+        position:absolute;
+        margin-top:50px;
+    }
+
+    .right-text-2{
+        margin-left:450px;
+        position:absolute;
+        bottom:2px;
+    }
+
+    .left {
+        float;
+    }
+
+    .left-text {
+        margin-right:450px;
+    }
 }
 /* large screen query */
 @media screen and (min-width:1440px) {
