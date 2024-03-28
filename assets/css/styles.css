@@ -2,32 +2,32 @@
 
 body {
     background-image: linear-gradient(#FFFFFF, #eaad52);
-    font-family:'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 a {
-    text-decoration:none;
-    color:inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 hr {
-    border:2px solid;
+    border: 2px solid;
 }
 
 #menu-buttons {
-    list-style:none;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-evenly;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 /* partially taken from https://www.w3schools.com/howto/howto_css_outline_buttons.asp for convenience's sake */
 
 #menu-buttons li {
-  background-color: #fafafa;
-  color: black;
-  padding:5px 2px;
-  font-size: 20px;
+    background-color: #fafafa;
+    color: black;
+    padding: 5px 2px;
+    font-size: 20px;
 
 }
 
@@ -46,54 +46,56 @@ nav {
 }
 
 #menu-toggle {
-    display:none;
+    display: none;
 }
 
 
 
 header {
-    display:flex;
-    justify-content:space-between;
-    font-size:larger;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
 }
 
 .menu-toggle-label {
     font-size: 2rem;
-    position:relative;
-    align-self:center;
+    position: relative;
+    align-self: center;
 }
 
 
-header > hr {
-    display:none;
+header>hr {
+    display: none;
 }
- /* the .active class shows the user which page they're on */
+
+/* the .active class shows the user which page they're on */
 .active {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 /* code for the mindset box drop-down */
 
 #structures {
-    background:rgba(213, 195, 161, 0.4);
+    background: rgba(213, 195, 161, 0.4);
     border: 3px solid black;
-    border-radius:5px;
-    padding-right:25px;
-    padding-left:50px;
-    width:25vw
+    border-radius: 5px;
+    padding-right: 25px;
+    padding-left: 50px;
+    width: 25vw
 }
 
 #secrets-toggle:checked~#secrets {
-    display:block
+    display: block
 }
 
 #secrets {
-    display:none;
+    display: none;
 }
 
 #secrets-toggle {
-    display:none;
+    display: none;
 }
+
 /* Taken from the love-running project, some help from https://reintech.io/blog/creating-responsive-hero-section-with-css */
 #hero {
     height: 400px;
@@ -104,75 +106,125 @@ header > hr {
 }
 
 /* allows top menu elements to be underlined on mouseover */
-#menu-buttons > a:hover {
-    text-decoration:underline;
+#menu-buttons>a:hover {
+    text-decoration: underline;
 }
+
+img {
+    border: 1px solid;
+    border-radius: 10px;
+}
+
 /* 
 tablet query */
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
 
     #menu-buttons {
-        flex-direction:row;
-        font-size:large;
-        padding-top:50px;
+        flex-direction: row;
+        font-size: large;
+        padding-top: 50px;
     }
-    
+
     .hack-picture {
-        width:100%;
+        width: 55%;
     }
 }
 
 /* laptop query */
 @media screen and (min-width:1024px) {
     #hero {
-        height:100vh;
+        height: 100vh;
     }
+
     .hack-picture {
-        width:80%;
+        width: 80%;
     }
 
     #life-hacks hr {
-        display:none;
+        display: none;
     }
 
     p {
-        font-size:large;
+        font-size: large;
     }
+
     /* start of repositioning to make the website pretty on desktops/laptops, credit to https://www.w3schools.com/cssref/pr_grid-template-columns.php */
     #life-hacks {
-       display: inline-grid;
-     align-items: center; 
-     grid-column-start: 1;
-    grid-template-columns: auto auto auto auto;
+        display: inline-grid;
+        align-items: center;
+        grid-column-start: 1;
+        grid-template-columns: auto auto auto auto;
     }
 
-    
+
     .top-pic {
-        margin-top:2px;
+        margin-top: 2px;
     }
+
     .hack-picture {
-        border:2px solid;
-        border-radius:10px;
+        border: 2px solid;
+        border-radius: 10px;
     }
 
     p {
-    position:relative;
-    right:10%;}
+        position: relative;
+        right: 10%;
+        top: 9%;
+    }
+
+    .text-top {
+        position: relative;
+        top: 13%;
+    }
 
     .center {
-    position:relative;
-    left:85%;
-    align-self:center; }
+        position: relative;
+
+        align-self: center;
+    }
 
     .last-text {
-    position:relative;
-    left:80%;
+        top: 2.5%;
+    }
+
+
 
 }
-    
+
 /* large screen query */
 @media screen and (min-width:1440px) {
 
-}
+    #life-hacks {
+        font-size: large;
+    }
 
+    #life-hacks p {
+        border:2px solid;
+        border-radius:10px;
+        background:rgba(234, 173, 82,0.5);
+    }
+
+    p {
+        position: relative;
+        right: 10%;
+        top: 7%;
+    }
+
+    .text-top {
+        position: relative;
+        top: 10%;
+        
+    }
+
+    .center {
+        position: relative;
+
+        align-self: center;
+    }
+
+    .last-text {
+        top: .5%;
+    }
+
+}
