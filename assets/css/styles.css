@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
 body {
+    background-image: linear-gradient(#FFFFFF, #eaad52);
     font-family:'Oswald', sans-serif;
 }
 
@@ -118,7 +119,7 @@ tablet query */
     }
     
     .hack-picture {
-        width:75%;
+        width:100%;
     }
 }
 
@@ -128,7 +129,7 @@ tablet query */
         height:100vh;
     }
     .hack-picture {
-        width:40%;
+        width:80%;
     }
 
     #life-hacks hr {
@@ -136,49 +137,40 @@ tablet query */
     }
 
     p {
-        line-height:50px;
         font-size:large;
     }
-    /* start of repositioning to make the website pretty on desktops/laptops */
+    /* start of repositioning to make the website pretty on desktops/laptops, credit to https://www.w3schools.com/cssref/pr_grid-template-columns.php */
     #life-hacks {
-        display: flex;
-        flex-direction: column;
-        position:absolute;
+       display: inline-grid;
+     align-items: center; 
+     grid-column-start: 1;
+    grid-template-columns: auto auto auto auto;
     }
+
     
     .top-pic {
         margin-top:2px;
     }
     .hack-picture {
         border:2px solid;
+        border-radius:10px;
     }
 
-    .right {
-        float:right;
+    p {
+    position:relative;
+    right:10%;}
 
-    }
-    
+    .center {
+    position:relative;
+    left:85%;
+    align-self:center; }
 
-    .right-text-1{
-        margin-left:450px;
-        position:absolute;
-        margin-top:50px;
-    }
+    .last-text {
+    position:relative;
+    left:80%;
 
-    .right-text-2{
-        margin-left:450px;
-        position:absolute;
-        bottom:2px;
-    }
-
-    .left {
-        float;
-    }
-
-    .left-text {
-        margin-right:450px;
-    }
 }
+    
 /* large screen query */
 @media screen and (min-width:1440px) {
 
