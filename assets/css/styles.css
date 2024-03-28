@@ -28,7 +28,7 @@ a {
 
 }
 
-/* love-running project's hidden buttons serve as the basis here */
+/* love-running project's hidden buttons serve as the basis here, makes menu items hidden unless toggled */
 nav {
     background-color: #ffffff;
     width: 100%;
@@ -60,7 +60,7 @@ header {
 header > hr {
     display:none;
 }
-
+ /* the .active class shows the user which page they're on */
 .active {
     text-decoration:underline;
 }
