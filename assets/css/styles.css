@@ -9,7 +9,9 @@ a {
     color:inherit;
 }
 
-
+hr {
+    border:2px solid;
+}
 
 #menu-buttons {
     list-style:none;
@@ -45,6 +47,8 @@ nav {
 #menu-toggle {
     display:none;
 }
+
+
 
 header {
     display:flex;
