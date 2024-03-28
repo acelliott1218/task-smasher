@@ -103,16 +103,19 @@ header > hr {
 /* 
 tablet query */
 
-@media and (min-width:768px){
+@media screen and (min-width:768px){
 
 }
 
 /* laptop query */
-@media and (min-width:1024px) {
+@media screen and (min-width:1024px) {
+    #hero {
+        height:4000rem;
+    }
 
 }
 /* large screen query */
-@media and (min-width:1440px) {
+@media screen and (min-width:1440px) {
 
 }
 
