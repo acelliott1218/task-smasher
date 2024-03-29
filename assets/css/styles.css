@@ -117,6 +117,15 @@ img {
 }
 
 /* footer stuff, taken from love-running project */
+
+footer {
+    max-width:100%;
+    width:100%;
+    background-color:rgba(58, 58, 58, .85);
+    border-radius:20px;
+    border:#3a3a3a solid;
+    }
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -128,8 +137,15 @@ img {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color:#fafafa
 }
+
+.social-networks li{
+    display: inline;
+}
+
+
+
 
 /* makes the link to the sign-up page more clear in the text of the our-story file */
 .attention-grab {
@@ -137,6 +153,9 @@ img {
     text-decoration:underline;
 }
 
+#big-picture {
+    display:none;
+}
 /* 
 tablet query */
 
@@ -150,6 +169,13 @@ tablet query */
 
     .hack-picture {
         width: 55%;
+    }
+
+        /* need help making the font-awesome icons not stick. annoying. */
+    #story h2 {
+        display:flex;
+        justify-content:center;
+        flex-basis:content;
     }
 }
 
@@ -181,7 +207,55 @@ tablet query */
         justify-content:space-evenly;
     }
 
+    /* structure from love-running project */
+    #story {
+        display:flex;
+        width:100%;
+
+    }
+   #push-right {
+    width: 30%;
+    float: right;
+    left:8%;
+    position:relative;
+   }
+
+   #push-left {
+    width: 30%;
+    float: left;
+    position:relative;
+   }
+
+   #big-picture {
+    display:inline-block;
+    background: url("../images/smash-background2.webp");
+    background-size:cover;
+    background-repeat:no-repeat;
+    width: 20rem;
+    height: 20rem;
+    position:relative;
+    align-self:center;
+    left:4vw;
+    margin-top:20px;
+    border:1px solid;
+    border-radius:50%;
+   }
+
+   #footer-div {
+    clear:both;
+   }
+
+
 /* large screen query */
 @media screen and (min-width:1440px) {
 
+    #push-right {
+        left:12%;
+    }
+
+    #big-picture {
+        left:7%;
+        width: 25rem;
+        height: 25rem;
+    }
 }
