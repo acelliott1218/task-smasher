@@ -1,33 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="assets/css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Smasher!</title>
 </head>
+
 <body>
     <Header>
-        <a href="index.html"><h1>Task Smasher!</h1></a>
+        <a href="index.html">
+            <h1>Task Smasher!</h1>
+        </a>
         <input type="checkbox" id="menu-toggle" name="menu-toggle">
         <label for="menu-toggle" class="menu-toggle-label"><i class="fa-solid fa-hammer"></i></label>
         <!-- these will show up after the hammer is clicked -->
-    <nav>
-        <ul id="menu-buttons">
-            <a href="index.html"><li>Smash Those Tasks!</li></a>
-            <a href="our_story.html" class="active"><li>Our Story</li></a>
-            <a href="signup.html"><li>Sign Up</li></a>
-        </ul>
-    </nav>
-</Header>
+        <nav>
+            <ul id="menu-buttons">
+                <a href="index.html">
+                    <li>Smash Those Tasks!</li>
+                </a>
+                <a href="our_story.html" class="active">
+                    <li>Our Story</li>
+                </a>
+                <a href="signup.html">
+                    <li>Sign Up</li>
+                </a>
+            </ul>
+        </nav>
+    </Header>
     <hr>
-<!-- the hero image is contained here -->
-<section id="hero">
-</section>
+    <!-- the hero image is contained here -->
+    <section id="hero">
+    </section>
     <!-- start of main content -->
-<main>
-</main>
-<footer>
+    <main>
+        <!-- beginning of our story -->
+        <div id="story">
+            <!-- the hook to the story -->
+            <div id="introduction">
+                <h2><i class="fa-brands fa-think-peaks"></i> Why Do All This?</h2>
+                <p>Task smasher was started with on simple task in mind -- to use the time we've got doing things we
+                    love, instead of the things that keep us busy. Let's be honest; nobody, or at least very few, people
+                    love doing chores -- but when one of you's in medical school, and another working full-time, you've
+                    only got a few hours to yourself throughout the day. So our question: why spend those hours with
+                    busy-work?</p>
+            </div>
+            <!-- illustrating our goal -->
+            <div id="our-goal">
+                <h2><i class="fa-solid fa-check fa-flip-horizontal"></i> Our Goal!</h2>
+                <p>We know we're not going to solve every single issue, but we hope these four tasks we've outlined,
+                    which ended up saving us the most time, will do the same for you. Maybe it won't give you hours, but
+                    even minutes saved can be minutes spent with family and friends, instead of searching for keys,
+                    feeding the dog, and so on. We want to give you your life back, at least in this small way.</p>
+            </div>
+            <!-- illustrating how to help us out, leads to the sign up page -->
+            <div id="how-to-help">
+                <h2><i class="fa-regular fa-comment fa-flip-horizontal"></i> How You Can Help!</h2>
+                <p>The four hacks we have right now are just our favorites -- but we know there's got to be thousands
+                    more out there. So, how can you help us out? It's simple! By going to our <a href="signup.html"
+                        class="attention-grab">sign-up page</a> you can send us your hacks. Who knows, they might be so
+                    good they dethrone one of our classic four!</p>
+            </div>
+        </div>
+    </main>
+    <footer>
 
         <ul id="social-networks">
             <li><a href="facebook.com" target="_blank" rel="noicons"
@@ -42,8 +80,9 @@
             </li>
         </ul>
 
-</footer>
-<!-- font-awesome functionality link -->
-<script src="https://kit.fontawesome.com/2c354de717.js" crossorigin="anonymous"></script>
+    </footer>
+    <!-- font-awesome functionality link -->
+    <script src="https://kit.fontawesome.com/2c354de717.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -131,6 +131,12 @@ img {
     color: #3a3a3a;
 }
 
+/* makes the link to the sign-up page more clear in the text of the our-story file */
+.attention-grab {
+    font-style:italic;
+    text-decoration:underline;
+}
+
 /* 
 tablet query */
 
