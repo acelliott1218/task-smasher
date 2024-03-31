@@ -100,6 +100,22 @@ header>hr {
     display: none;
 }
 
+#radio-buttons {
+    padding-bottom:5%;
+}
+
+/* credit to https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/ */
+.join-button {
+    top:50%;
+    background-color: #3a3a3a;
+    color: #fafafa; 
+    border-color:#eaad52;
+    border-radius:10px; 
+    margin-top:2%;
+    padding:10px;
+    min-height:30px; 
+    min-width: 120px;
+}
 /* Taken from the love-running project, some help from https://reintech.io/blog/creating-responsive-hero-section-with-css */
 #hero {
     height: 400px;
