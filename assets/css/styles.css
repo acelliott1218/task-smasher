@@ -354,6 +354,7 @@ footer {
     #mindset-bg {
         display:block;
         background-color:rgba(58, 58, 58,0.80);
+        box-shadow:2px 2px 2px 1px #3a3a3a;
         width:30rem;
         align-self:flex-end;
         position:relative;
