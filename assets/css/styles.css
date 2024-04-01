@@ -326,6 +326,10 @@ footer {
             left: 12%;
         }
 
+        #push-left {
+            left:1%;
+        }
+
         #big-picture {
             left: 6%;
             width: 25rem;
