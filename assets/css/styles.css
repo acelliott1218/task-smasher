@@ -111,11 +111,11 @@ header>hr {
 }
 
 #mindset-bg {
-    display: hidden;
+    visibility:none;
 }
 
 #mindset-text {
-    display: none;
+    visibility:none;
 }
 
 
@@ -290,6 +290,30 @@ footer {
     #hero {
         height: 100vh;
     }
+    #mindset-bg {
+        visibility:visible;
+        background-color:rgba(58, 58, 58,0.80);
+        width:30em;
+        align-self:flex-end;
+        position:relative;
+        top:4rem;
+    }
+    
+    
+    /* used https://cssgradient.io/blog/css-gradient-text/ as a basis */
+    #mindset-text {
+        visibility:visible;
+        background: -webkit-linear-gradient(#eaad52, #fafafa);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #mindset-text h2 {
+        text-align:center;
+    }
+    .h2-centered {
+        margin-top:5rem;
+    }
 
     .hack-picture {
         width: 80%;
@@ -304,17 +328,9 @@ footer {
         padding-left: 5px;
     }
 
-    .small-hiding {
-        display: contents;
-    }
 
     /* start of repositioning to make the website pretty on desktops/laptops, credit to https://www.w3schools.com/cssref/pr_grid-template-columns.php */
-    #mindset-bg {
-        width: 30em;
-        align-self: flex-end;
-        position: relative;
-        top: 4rem;
-    }
+    
 
     #life-hacks h2 {
         display: flex;
