@@ -21,7 +21,7 @@ hr {
 
 /* this lets the pop-out menu work in a prettier way */
 .hide {
-    opacity:0;
+    opacity: 0;
 }
 
 #menu-buttons {
@@ -120,9 +120,41 @@ header>hr {
     border-radius: 10px;
     margin-top: 2%;
     padding: 10px;
-    min-height: 30px;
-    min-width: 120px;
+    min-height: 50px;
+    min-width: 180px;
+    font-family:'Oswald', sans-serif;
 }
+
+#email_address {
+    position:relative;
+    left:1.83rem;
+}
+
+#first_name {
+    position:relative;
+    right:.1rem;
+}
+#signup {
+    display:flex;
+    justify-content:space-around;
+}
+
+#no {
+    position:relative;
+    left:.25rem;
+}
+
+.join-button:hover {
+    font-size:large;
+    text-decoration:underline;
+}
+
+.join-button:active {
+    color:#3a3a3a;
+    background-color:#eaad52;
+ 
+}
+
 
 /* Taken from the love-running project, some help from https://reintech.io/blog/creating-responsive-hero-section-with-css */
 #hero {
@@ -237,29 +269,29 @@ footer {
 
     /* start of repositioning to make the website pretty on desktops/laptops, credit to https://www.w3schools.com/cssref/pr_grid-template-columns.php */
 
-     #life-hacks {
+    #life-hacks {
         display: flex;
-        width:100%;
+        width: 100%;
     }
 
     #life-hacks hr {
-        display:block;
+        display: block;
     }
 
     #push-right-2 {
         width: 30%;
         float: right;
-        left:3%;
+        left: 3%;
         position: relative;
     }
 
     #push-left-2 {
         width: 30%;
         float: left;
-        left:8%;
+        left: 8%;
         position: relative;
     }
-    
+
     #big-picture-2 {
         display: inline-block;
         background: url("../images/hammer-guy.webp");
@@ -276,7 +308,7 @@ footer {
     }
 
     .hack-picture {
-        display:none;
+        display: none;
     }
 
 
@@ -322,12 +354,13 @@ footer {
     /* large screen query */
     @media screen and (min-width:1440px) {
 
-        #push-right, #push-left-2 {
+        #push-right,
+        #push-left-2 {
             left: 12%;
         }
 
         #push-left {
-            left:1%;
+            left: 1%;
         }
 
         #big-picture {
@@ -335,6 +368,7 @@ footer {
             width: 25rem;
             height: 25rem;
         }
+
         #big-picture-2 {
             left: 7%;
             width: 25rem;
