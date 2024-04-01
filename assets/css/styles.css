@@ -77,7 +77,7 @@ hr {
 /* love-running project's hidden buttons serve as the basis here, makes menu items hidden unless toggled */
 nav {
     background-color: #ffffff;
-    width: 100%;
+    width: 60%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
@@ -145,6 +145,10 @@ header {
     display: flex;
     justify-content: space-between;
     font-size: larger;
+    position:fixed;
+    background-color:#fafafa;
+    width:100%;
+    z-index:1;
 }
 
 
@@ -152,6 +156,7 @@ header {
     font-size: 2rem;
     position: relative;
     align-self: center;
+    right:1rem;
 }
 
 
@@ -316,6 +321,9 @@ footer {
 
 @media screen and (min-width:768px) {
 
+    nav {
+        width:90%;
+    }
     #menu-buttons {
         flex-direction: row;
         font-size: large;
@@ -374,7 +382,7 @@ footer {
 @media screen and (min-width:1024px) {
     nav {
         background-color: #ffffff;
-        width: 100%;
+        width: 90%;
         /* this part is kept to counter-act the previous shadow  */
         box-shadow: 0 0px 0px #3a3a3a;
         display: inline;
@@ -383,13 +391,18 @@ footer {
 
     h1 {
         font-size: 3rem;
+        margin-bottom:0px;
+        text-wrap:nowrap;
+        
     }
 
     .menu-toggle-label {
         display: none;
     }
 
-
+    #menu-buttons {
+        padding-top:5px;
+    }
 
 
     #hero {
