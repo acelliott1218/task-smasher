@@ -45,6 +45,11 @@ hr {
     border: 2px solid;
 }
 
+.h2-centered {
+    text-align: center;
+    font-size: 40px;
+}
+
 /* this lets the pop-out menu work in a prettier way */
 .hide {
     opacity: 0;
@@ -104,6 +109,15 @@ header {
 header>hr {
     display: none;
 }
+
+#mindset-bg {
+    display: hidden;
+}
+
+#mindset-text {
+    display: none;
+}
+
 
 
 /* the .active class shows the user which page they're on */
@@ -173,6 +187,7 @@ header>hr {
     background: url("../images/task-smasher-hero.webp") no-repeat center center/cover;
     position: relative;
     margin: 0;
+    display: flex;
 
 }
 
@@ -236,8 +251,17 @@ footer {
         padding-top: 20px;
     }
 
-    .hack-picture {
-        width: 55%;
+    #life-hacks hr {
+        display: none;
+    }
+
+    /* https://stackoverflow.com/questions/47601564/equal-width-columns-in-css-grid Tyler H gets credit specifically */
+    #life-hacks {
+        display: grid;
+        grid-column-start: 1;
+        grid-template-columns: repeat(3, .75fr);
+        grid-auto-flow: column;
+        justify-content: center;
     }
 
     /* need help making the font-awesome icons not stick. annoying. our_story.html */
@@ -254,6 +278,10 @@ footer {
 
     #menu-buttons li {
         font-size: 2em;
+    }
+
+    .bottom-right {
+        margin-top: 2.5rem;
     }
 }
 
@@ -276,12 +304,27 @@ footer {
         padding-left: 5px;
     }
 
+    .small-hiding {
+        display: contents;
+    }
 
     /* start of repositioning to make the website pretty on desktops/laptops, credit to https://www.w3schools.com/cssref/pr_grid-template-columns.php */
+    #mindset-bg {
+        width: 30em;
+        align-self: flex-end;
+        position: relative;
+        top: 4rem;
+    }
+
+    #life-hacks h2 {
+        display: flex;
+        justify-content: center;
+    }
 
     #life-hacks {
         display: flex;
         width: 100%;
+        justify-content: initial;
     }
 
     #life-hacks hr {
@@ -302,10 +345,6 @@ footer {
         position: relative;
     }
 
-    /* Evens out the bottom two sections */
-    .bottom-right {
-        padding-top: 2.5rem;
-    }
 
     /* credit to https://www.florin-pop.com/blog/2019/03/css-pulse-effect/ */
     #big-picture-2 {
@@ -392,16 +431,13 @@ footer {
         }
 
         #push-right-2 {
-            padding-top:.5rem;
-        }
-        
-        .bottom-right {
-            padding-top:2rem;
+            padding-top: .5rem;
         }
 
         .bottom-left {
-            padding-top:.5rem;
+            padding-top: .5rem;
         }
+
         #push-left {
             left: 1%;
         }
