@@ -389,6 +389,11 @@ footer {
         text-decoration: solid;
     }
 
+    header {
+        box-shadow:#3a3a3a 0px 1px 0px 0px;
+        border:rgba(58, 58, 58,.7) .5px solid;
+    }
+
     h1 {
         font-size: 3rem;
         margin-bottom:0px;
