@@ -3,12 +3,13 @@
 body {
     background-image: linear-gradient(#FFFFFF, #eaad52);
     font-family: 'Oswald', sans-serif;
-    color:#3a3a3a
+    color: #3a3a3a
 }
 
 h1 {
-    font-size:2rem;
+    font-size: 2rem;
 }
+
 a {
     text-decoration: none;
     color: inherit;
@@ -16,6 +17,11 @@ a {
 
 hr {
     border: 2px solid;
+}
+
+/* this lets the pop-out menu work in a prettier way */
+.hide {
+    opacity:0;
 }
 
 #menu-buttons {
@@ -61,6 +67,7 @@ header {
     font-size: larger;
 }
 
+
 .menu-toggle-label {
     font-size: 2rem;
     position: relative;
@@ -101,21 +108,22 @@ header>hr {
 }
 
 #radio-buttons {
-    padding-bottom:5%;
+    padding-bottom: 5%;
 }
 
-/* credit to https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/ */
+/* credit to https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/, signup.html styling */
 .join-button {
-    top:50%;
+    top: 50%;
     background-color: #3a3a3a;
-    color: #fafafa; 
-    border-color:#eaad52;
-    border-radius:10px; 
-    margin-top:2%;
-    padding:10px;
-    min-height:30px; 
+    color: #fafafa;
+    border-color: #eaad52;
+    border-radius: 10px;
+    margin-top: 2%;
+    padding: 10px;
+    min-height: 30px;
     min-width: 120px;
 }
+
 /* Taken from the love-running project, some help from https://reintech.io/blog/creating-responsive-hero-section-with-css */
 #hero {
     height: 400px;
@@ -138,12 +146,12 @@ img {
 /* footer stuff, taken from love-running project */
 
 footer {
-    max-width:100%;
-    width:100%;
-    background-color:rgba(58, 58, 58, .85);
-    border-radius:20px;
-    border:#3a3a3a solid;
-    }
+    max-width: 100%;
+    width: 100%;
+    background-color: rgba(58, 58, 58, .85);
+    border-radius: 20px;
+    border: #3a3a3a solid;
+}
 
 #social-networks {
     text-align: center;
@@ -156,10 +164,10 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color:#fafafa
+    color: #fafafa
 }
 
-.social-networks li{
+.social-networks li {
     display: inline;
 }
 
@@ -168,15 +176,15 @@ footer {
 
 /* makes the link to the sign-up page more clear in the text of the our-story file */
 .attention-grab {
-    font-style:italic;
-    text-decoration:underline;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 #big-picture {
-    display:none;
+    display: none;
 }
-/* 
-tablet query */
+
+/* tablet query */
 
 @media screen and (min-width:768px) {
 
@@ -190,16 +198,18 @@ tablet query */
         width: 55%;
     }
 
-        /* need help making the font-awesome icons not stick. annoying. */
+    /* need help making the font-awesome icons not stick. annoying. our_story.html */
     #story h2 {
-        display:flex;
-        justify-content:center;
-        flex-basis:content;
+        display: flex;
+        justify-content: center;
+        flex-basis: content;
     }
+
     .h2-centered {
-        text-align:center;
-        font-size:50px;
+        text-align: center;
+        font-size: 50px;
     }
+
     #menu-buttons li {
         font-size: 2em;
     }
@@ -221,68 +231,109 @@ tablet query */
 
     p {
         font-size: large;
-        padding-left:5px;
+        padding-left: 5px;
     }
 
 
     /* start of repositioning to make the website pretty on desktops/laptops, credit to https://www.w3schools.com/cssref/pr_grid-template-columns.php */
-    #life-hacks {
-        display:grid;
-        align-items: center;
-        grid-column-start: 1;
-        grid-template-columns: 1fr 1fr;
-        justify-content:space-evenly;
-    }
 
-
-    /* started from love-running project's large landing page */
-    #story {
-        display:flex;
+     #life-hacks {
+        display: flex;
         width:100%;
     }
-   #push-right {
-    width: 30%;
-    float: right;
-    left:8%;
-    position:relative;
-   }
 
-   #push-left {
-    width: 30%;
-    float: left;
-    position:relative;
-   }
+    #life-hacks hr {
+        display:block;
+    }
 
-   #big-picture {
-    display:inline-block;
-    background: url("../images/smash-background2.webp");
-    background-size:cover;
-    background-repeat:no-repeat;
-    width: 20rem;
-    height: 20rem;
-    position:relative;
-    align-self:center;
-    left:4vw;
-    margin-top:20px;
-    border:1px solid;
-    border-radius:50%;
-   }
+    #push-right-2 {
+        width: 30%;
+        float: right;
+        left:3%;
+        position: relative;
+    }
 
-   #footer-div {
-    clear:both;
-   }
+    #push-left-2 {
+        width: 30%;
+        float: left;
+        left:8%;
+        position: relative;
+    }
+    
+    #big-picture-2 {
+        display: inline-block;
+        background: url("../images/hammer-guy.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 20rem;
+        height: 20rem;
+        position: relative;
+        align-self: center;
+        left: 4vw;
+        margin-top: 20px;
+        border: 1px solid;
+        border-radius: 50%;
+    }
+
+    .hack-picture {
+        display:none;
+    }
 
 
-/* large screen query */
-@media screen and (min-width:1440px) {
+    /* started from love-running project's large landing page, our_story.html */
+    #story {
+        display: flex;
+        width: 100%;
+    }
 
     #push-right {
-        left:12%;
+        width: 30%;
+        float: right;
+        left: 8%;
+        position: relative;
+    }
+
+    #push-left {
+        width: 30%;
+        float: left;
+        position: relative;
     }
 
     #big-picture {
-        left:6%;
-        width: 25rem;
-        height: 25rem;
+        display: inline-block;
+        background: url("../images/smash-background2.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 20rem;
+        height: 20rem;
+        position: relative;
+        align-self: center;
+        left: 4vw;
+        margin-top: 20px;
+        border: 1px solid;
+        border-radius: 50%;
     }
-}
+
+    #footer-div {
+        clear: both;
+    }
+
+
+    /* large screen query */
+    @media screen and (min-width:1440px) {
+
+        #push-right, #push-left-2 {
+            left: 12%;
+        }
+
+        #big-picture {
+            left: 6%;
+            width: 25rem;
+            height: 25rem;
+        }
+        #big-picture-2 {
+            left: 7%;
+            width: 25rem;
+            height: 25rem;
+        }
+    }
