@@ -242,6 +242,8 @@ header>hr {
     position: relative;
     margin: 0;
     display: flex;
+    border:1px rgba(58, 58, 58,.5) solid;
+    box-shadow: #3a3a3a 1px 1px 1px 1.5px;
 
 }
 
