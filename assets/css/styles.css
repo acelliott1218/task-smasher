@@ -183,7 +183,7 @@ header>hr {
     background-color: #3a3a3a;
     color: #fafafa;
     border-color: #eaad52;
-    padding: 8px;
+    /* padding: 8px; */
     min-height: 50px;
     min-width: 90px;
     font-family: 'Oswald', sans-serif;
@@ -202,7 +202,8 @@ header>hr {
 
 #email_address {
     min-height: 50px;
-    min-width: 90px;
+    width:200px;
+    margin-left:10px;
 }
 
 
@@ -223,6 +224,13 @@ header>hr {
 .signup-title {
     font-size:2rem;
     text-align:center;
+    text-decoration:underline;
+}
+
+.signup-reason {
+    font-size:1.3rem;
+    text-align:center;
+    max-width:390px;
 }
 
 
@@ -336,6 +344,16 @@ footer {
 
     .bottom-right {
         margin-top: 2.5rem;
+    }
+
+    /* styling for the signup page */
+    #email_address {
+        min-width:500px;
+    }
+
+    .signup-reason {
+        left:8rem;
+        position:relative;
     }
 }
 
