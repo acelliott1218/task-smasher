@@ -105,32 +105,10 @@ header>hr {
     display: none;
 }
 
+
 /* the .active class shows the user which page they're on */
 .active {
     text-decoration: underline;
-}
-
-/* code for the mindset box drop-down */
-
-#structures {
-    background: rgba(213, 195, 161, 0.4);
-    border: 3px solid #3a3a3a;
-    border-radius: 5px;
-    padding-right: 25px;
-    padding-left: 50px;
-    width: 25vw
-}
-
-#secrets-toggle:checked~#secrets {
-    display: block
-}
-
-#secrets {
-    display: none;
-}
-
-#secrets-toggle {
-    display: none;
 }
 
 #radio-buttons {
