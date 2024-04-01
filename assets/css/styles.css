@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
 /* from love-running */
-*{ 
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -9,25 +9,25 @@
 
 /* animation to make things hover, credit https://www.florin-pop.com/blog/2019/03/css-pulse-effect/ */
 @keyframes pulse {
-	0% {
-		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-	}
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
 
-	70% {
-		transform: scale(1);
-		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-	}
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
 
-	100% {
-		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-	}
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
 }
 
 body {
     background-image: linear-gradient(#FFFFFF, #eaad52);
-    background-color:grey;
+    background-color: grey;
     font-family: 'Oswald', sans-serif;
     color: #3a3a3a
 }
@@ -148,42 +148,43 @@ header>hr {
     padding: 10px;
     min-height: 50px;
     min-width: 180px;
-    font-family:'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 
 
 #email_address {
-    position:relative;
-    left:1.83rem;
+    position: relative;
+    left: 1.83rem;
 }
 
 #first_name {
-    position:relative;
-    right:.1rem;
+    position: relative;
+    right: .1rem;
 }
+
 #signup {
-    display:flex;
-    justify-content:space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 #no {
-    position:relative;
-    left:.25rem;
+    position: relative;
+    left: .25rem;
 }
 
 .join-button:hover {
-    font-size:large;
-    text-decoration:underline;
+    font-size: large;
+    text-decoration: underline;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-	transform: scale(1);
-	animation: pulse 2s infinite;
+    transform: scale(1);
+    animation: pulse 2s infinite;
 }
 
 .join-button:active {
-    color:#3a3a3a;
-    background-color:#eaad52;
- 
+    color: #3a3a3a;
+    background-color: #eaad52;
+
 }
 
 
@@ -193,7 +194,7 @@ header>hr {
     width: 100%;
     background: url("../images/task-smasher-hero.webp") no-repeat center center/cover;
     position: relative;
-    margin:0;
+    margin: 0;
 
 }
 
@@ -325,8 +326,9 @@ footer {
 
     /* Evens out the bottom two sections */
     .bottom-right {
-        padding-top:2.5rem;
+        padding-top: 2.5rem;
     }
+
     /* credit to https://www.florin-pop.com/blog/2019/03/css-pulse-effect/ */
     #big-picture-2 {
         display: inline-block;
@@ -340,14 +342,14 @@ footer {
         left: 3.3rem;
         margin-top: 20px;
         border: 3px double;
-        border-color:#b6b0a6;
+        border-color: #b6b0a6;
         border-radius: 50%;
     }
 
     #big-picture-2:hover {
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-    transform: scale(1);
-    animation: pulse 2s infinite;
+        transform: scale(1);
+        animation: pulse 2s infinite;
     }
 
     .hack-picture {
@@ -362,7 +364,7 @@ footer {
     }
 
     #how-to-help {
-        padding-top:3rem;
+        padding-top: 3rem;
     }
 
     #push-right {
@@ -390,15 +392,15 @@ footer {
         left: 4vw;
         margin-top: 20px;
         border: 3px double;
-        border-color:#b6b0a6;
+        border-color: #b6b0a6;
         border-radius: 50%;
     }
 
     #big-picture:hover {
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-	transform: scale(1);
-	animation: pulse 2s infinite;
-}
+        transform: scale(1);
+        animation: pulse 2s infinite;
+    }
 
 
 
@@ -411,6 +413,17 @@ footer {
             left: 12%;
         }
 
+        #push-right-2 {
+            padding-top:.5rem;
+        }
+        
+        .bottom-right {
+            padding-top:2rem;
+        }
+
+        .bottom-left {
+            padding-top:.5rem;
+        }
         #push-left {
             left: 1%;
         }
@@ -426,7 +439,8 @@ footer {
             width: 25rem;
             height: 25rem;
         }
+
         #how-to-help {
-            padding-top:0;
+            padding-top: 0;
         }
     }
