@@ -1,7 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
+/* from love-running */
+*{ 
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* animation to make things hover, credit https://www.florin-pop.com/blog/2019/03/css-pulse-effect/ */
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
 body {
     background-image: linear-gradient(#FFFFFF, #eaad52);
+    background-color:grey;
     font-family: 'Oswald', sans-serif;
     color: #3a3a3a
 }
@@ -125,6 +151,8 @@ header>hr {
     font-family:'Oswald', sans-serif;
 }
 
+
+
 #email_address {
     position:relative;
     left:1.83rem;
@@ -147,6 +175,9 @@ header>hr {
 .join-button:hover {
     font-size:large;
     text-decoration:underline;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s infinite;
 }
 
 .join-button:active {
@@ -162,6 +193,7 @@ header>hr {
     width: 100%;
     background: url("../images/task-smasher-hero.webp") no-repeat center center/cover;
     position: relative;
+    margin:0;
 
 }
 
@@ -181,7 +213,6 @@ footer {
     max-width: 100%;
     width: 100%;
     background-color: rgba(58, 58, 58, .85);
-    border-radius: 20px;
     border: #3a3a3a solid;
 }
 
@@ -291,7 +322,7 @@ footer {
         left: 8%;
         position: relative;
     }
-
+    /* credit to https://www.florin-pop.com/blog/2019/03/css-pulse-effect/ */
     #big-picture-2 {
         display: inline-block;
         background: url("../images/hammer-guy.webp");
@@ -303,8 +334,15 @@ footer {
         align-self: center;
         left: 4vw;
         margin-top: 20px;
-        border: 1px solid;
+        border: 3px double;
+        border-color:#b6b0a6;
         border-radius: 50%;
+    }
+
+    #big-picture-2:hover {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    transform: scale(1);
+    animation: pulse 2s infinite;
     }
 
     .hack-picture {
@@ -316,6 +354,10 @@ footer {
     #story {
         display: flex;
         width: 100%;
+    }
+
+    #how-to-help {
+        padding-top:3rem;
     }
 
     #push-right {
@@ -342,13 +384,18 @@ footer {
         align-self: center;
         left: 4vw;
         margin-top: 20px;
-        border: 1px solid;
+        border: 3px double;
+        border-color:#b6b0a6;
         border-radius: 50%;
     }
 
-    #footer-div {
-        clear: both;
-    }
+    #big-picture:hover {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+
+
 
 
     /* large screen query */
