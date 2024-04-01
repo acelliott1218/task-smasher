@@ -183,13 +183,13 @@ header>hr {
     background-color: #3a3a3a;
     color: #fafafa;
     border-color: #eaad52;
-    /* padding: 8px; */
+    padding: 2px;
     min-height: 50px;
     min-width: 90px;
     font-family: 'Oswald', sans-serif;
     position:relative;
     right:3px;
-    top:2.7px;
+    top:.5px;
 }
 
 #signup {
@@ -204,16 +204,23 @@ header>hr {
     min-height: 50px;
     width:200px;
     margin-left:10px;
+    font-size:1rem;
+}
+
+#email_address:hover {
+    text-decoration:underline;
 }
 
 
-.join-button:hover {
+#email-group:hover {
     font-size: large;
     text-decoration: underline;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
     transform: scale(1);
     animation: pulse 2s infinite;
 }
+
+
 
 .join-button:active {
     color: #3a3a3a;
@@ -351,6 +358,10 @@ footer {
     /* styling for the signup page */
     #email_address {
         min-width:500px;
+    }
+
+    .join-button{
+        top:1px;
     }
 
     .signup-reason {
@@ -543,6 +554,8 @@ footer {
 
 
 
+
+
     /* large screen query */
     @media screen and (min-width:1440px) {
 
@@ -589,5 +602,12 @@ footer {
 
         #how-to-help {
             padding-top: 0;
+        }
+
+        /* signup styling */
+
+        .join-button {
+            font-size:1rem;
+            top:2px;
         }
     }
