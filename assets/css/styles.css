@@ -93,51 +93,48 @@ nav {
 }
 
 /* hides the hammer decoration */
-#wait-hide1 {
+.wait-hide1,.wait-hide2 {
     display: none;
 }
 
-#wait-hide2 {
-    display: none;
-}
 
 /* allows the hammer decoration to be seen on mouse-over */
-#home-page:hover #wait-hide1 {
+#home-page:hover .wait-hide1 {
     display: inline-block;
 }
 
-#story-page:hover #wait-hide1 {
+#story-page:hover .wait-hide1 {
     display: inline-block;
 }
 
-#signup-page:hover #wait-hide1 {
+#signup-page:hover .wait-hide1 {
     display: inline-block;
 }
 
 /* hides the hidden hammer on click */
-#home-page:active #wait-hide1 {
+#home-page:active .wait-hide1 {
     display: none;
 }
 
-#story-page:active #wait-hide1 {
+#story-page:active .wait-hide1 {
     display: none;
 }
 
-#signup-page:active #wait-hide1 {
+#signup-page:active .wait-hide1 {
     display: none;
 }
 
 /* changes to a different hammer icon on click */
 
-#home-page:active #wait-hide2 {
+#home-page:active .wait-hide2 {
     display: inline-block;
 }
 
-#story-page:active #wait-hide2 {
+#story-page:active .wait-hide2 {
     display: inline-block;
 }
 
-#signup-page:active #wait-hide2 {
+#signup-page:active .wait-hide2 {
     display: inline-block;
 }
 
@@ -169,7 +166,7 @@ header>hr {
 }
 
 #mindset-text {
-    visibility: none;
+    visibility:hidden;
 }
 
 
@@ -179,8 +176,8 @@ header>hr {
     text-decoration: underline;
 }
 
-#radio-buttons {
-    padding-bottom: 5%;
+#life-hacks {
+    padding: 0 10px 10px;
 }
 
 /* credit to https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/, signup.html styling */
@@ -249,7 +246,6 @@ header>hr {
 /* Taken from the love-running project, some help from https://reintech.io/blog/creating-responsive-hero-section-with-css */
 #hero {
     height: 400px;
-    width: 100%;
     background: url("../images/task-smasher-hero.webp") no-repeat center center/cover;
     position: relative;
     margin: 0;
@@ -273,7 +269,6 @@ img {
 
 footer {
     max-width: 100%;
-    width: 100%;
     background-color: rgba(58, 58, 58, .85);
     border: #3a3a3a solid;
 }
@@ -382,7 +377,7 @@ footer {
 @media screen and (min-width:1024px) {
     nav {
         background-color: #ffffff;
-        width: 90%;
+        width: 60%;
         /* this part is kept to counter-act the previous shadow  */
         box-shadow: 0 0px 0px #3a3a3a;
         display: inline;
@@ -397,8 +392,6 @@ footer {
     h1 {
         font-size: 3rem;
         margin-bottom:0px;
-        text-wrap:nowrap;
-        
     }
 
     .menu-toggle-label {
@@ -466,7 +459,6 @@ footer {
 
     #life-hacks {
         display: flex;
-        width: 100%;
         justify-content: initial;
     }
 
@@ -477,7 +469,6 @@ footer {
     #push-right-2 {
         width: 30%;
         float: right;
-        left: 3%;
         position: relative;
     }
 
@@ -492,14 +483,14 @@ footer {
     /* credit to https://www.florin-pop.com/blog/2019/03/css-pulse-effect/ */
     #big-picture-2 {
         display: inline-block;
-        background: url("../images/hammer-guy.webp");
+        background: url(../images/hammer-guy.webp);
         background-size: cover;
         background-repeat: no-repeat;
         width: 20rem;
         height: 20rem;
         position: relative;
         align-self: center;
-        left: 3.3rem;
+        left: 3rem;
         margin-top: 20px;
         border: 3px double;
         border-color: #b6b0a6;
@@ -569,7 +560,7 @@ footer {
     .signup-footer {
         margin-top:100px;
     }
-
+}
 
 
 
@@ -580,14 +571,6 @@ footer {
         #mindset-bg {
             width: 40rem;
         }
-
-        /* #mindset-text {
-            font-size:3rem;
-        }
-
-        #mindset-text p {
-            font-size:20px;
-        } */
 
         #push-right,
         #push-left-2 {
@@ -613,7 +596,7 @@ footer {
         }
 
         #big-picture-2 {
-            left: 7%;
+            left: 6em;
             width: 25rem;
             height: 25rem;
         }
