@@ -307,6 +307,10 @@ footer {
 #encouragement {
     color: #fafafa;
 }
+/* padding for the story */
+#story p {
+    padding: 5px
+}
 
 /* tablet query */
 
