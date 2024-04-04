@@ -93,17 +93,28 @@ nav {
 }
 
 /* hides the hammer decoration */
-.wait-hide1, .wait-hide2, #home-page:active .wait-hide1, #story-page:active .wait-hide1, #signup-page:active .wait-hide1  {
+.wait-hide1,
+.wait-hide2,
+#home-page:active .wait-hide1,
+#story-page:active .wait-hide1,
+#signup-page:active .wait-hide1 {
     display: none;
 }
 
 /* shows hidden hammer on click */
-#story-page:hover .wait-hide1, #home-page:hover .wait-hide1, #signup-page:hover .wait-hide1, #home-page:active .wait-hide2, #story-page:active .wait-hide2, #signup-page:active .wait-hide2 {
+#story-page:hover .wait-hide1,
+#home-page:hover .wait-hide1,
+#signup-page:hover .wait-hide1,
+#home-page:active .wait-hide2,
+#story-page:active .wait-hide2,
+#signup-page:active .wait-hide2 {
     display: inline-block;
 }
 
 /* hides the initial hammer on click */
-#home-page:active .wait-hide1, #story-page:active .wait-hide1, #signup-page:active .wait-hide1 {
+#home-page:active .wait-hide1,
+#story-page:active .wait-hide1,
+#signup-page:active .wait-hide1 {
     display: none;
 }
 
@@ -282,7 +293,7 @@ footer {
 
 .down {
     align-self: flex-end;
-    margin-right:10px;
+    margin-right: 10px;
 }
 
 .subscribe-form {
@@ -293,8 +304,8 @@ footer {
 #social-networks {
     display: inline-flex;
     list-style: none;
-    padding:2px;
-    letter-spacing:4px;
+    padding: 2px;
+    letter-spacing: 4px;
 }
 
 #social-networks a:hover {
@@ -387,7 +398,7 @@ footer {
     }
 
     #encouragement {
-        text-align:center;
+        text-align: center;
     }
 }
 
