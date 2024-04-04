@@ -90,7 +90,7 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
     * In contrast to the footer's email form, this one is rewarding to interact with, pulsing on mouseover and activation.
     * As previously mentioned, the form button also switches color to mimic the color of steel after being hit with a blacksmith's hammer.
     * The footer on this page, rather than a second signup form, contains links to the other two pages -- just in case the user is unsure of committing just yet.
-    * Successful signup leads to a success page.
+    * Successful signup leads to a success page of the CI form dump.
 
 ![Signup](docs/readme_images/signup.JPG)
 ![Signup](docs/readme_images/button.JPG)
@@ -137,3 +137,26 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
     * favicon was made using Convert.io
  * Quillbot
 	 * Quillbot was used to rewrite sections taken from https://www.familyhandyman.com/list/life-hacks-youll-wish-you-knew-sooner/ 
+## Testing 
+
+### Responsiveness
+
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
+
+Steps to test:
+
+1. Open browser and navigate to [Task Smasher](https://acelliott1218.github.io/task-smasher/index.html)
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
+
+Expected:
+
+Consistent, easy to read content across all screen sizes
+Content of the site changes in style, but not overall effect, as the screen grows larger
+More screen size means more content, specifically the appearance of the mindset boxes
+
+Actual:
+
+Website succeeded expectations, showing no compatibility errors on Chrome, Firefox, Edge, Safari, or OperaGX. 
