@@ -15,7 +15,7 @@
             <h1>Task Smasher!</h1>
         </a>
         <input type="checkbox" id="menu-toggle" name="menu-toggle">
-        <label for="menu-toggle" class="menu-toggle-label"><i class="fa-solid fa-hammer"></i></label>
+        <label for="menu-toggle" class="menu-toggle-label"><span hidden>click the i element to reveal the navigation panel!</span><i class="fa-solid fa-hammer"></i></label>
         <!-- these will show up after the hammer is clicked -->
         <nav>
             <ul id="menu-buttons">
@@ -129,25 +129,29 @@
         </div>
     </main>
     <footer id="footer-div">
-        <div id="subscribe">
-            <!-- this is in a separate div to allow more precise positioning -->
-            <div class="subscribe-form">
-                <input type="email" class="text-input" id="email2" name="email_address" placeholder="youremail@gmail.com"
-                    aria-label="input your email here" required>
-                <button type="submit" class="join-button" id="join2">Let's Start Smashing!
-                </button>
+        <form action="https://formdump.codeinstitute.net" method="POST" id="signup-form">
+            <div id="subscribe">
+                <!-- this is in a separate div to allow more precise positioning -->
+                <div class="subscribe-form">
+                    <input type="email" class="text-input" id="email2" name="email_address"
+                        placeholder="youremail@gmail.com" aria-label="input your email here" required>
+                    <button type="submit" class="join-button" id="join2">Let's Start Smashing!
+                    </button>
+                </div>
             </div>
-        </div>
+        </form>
         <div id="networks-email">
             <ul id="social-networks">
                 <li><a href="facebook.com" target="_blank" rel="noicons"
-                        aria-label="visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
+                        aria-label="visit our Facebook page (opens in new tab)"><i
+                            class="fa-brands fa-facebook"></i></a>
                 </li>
                 <li><a href="youtube.com" target="_blank" rel="noicons"
                         aria-label="visit our Youtube page (opens in new tab)"><i class="fa-brands fa-youtube"></i></a>
                 </li>
                 <li><a href="instagram.com" target="_blank" rel="noicons"
-                        aria-label="visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+                        aria-label="visit our Instagram page (opens in new tab)"><i
+                            class="fa-brands fa-instagram"></i></a>
                 </li>
             </ul>
             <p class="down">tasksmasher@gmail.com</p>
