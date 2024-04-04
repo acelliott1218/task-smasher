@@ -287,7 +287,7 @@ footer {
     display: inline-flex;
     list-style: none;
     padding: 2px;
-    letter-spacing: 4px;
+    letter-spacing: 25px;
 }
 
 #social-networks a:hover {
