@@ -90,7 +90,7 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
     * In contrast to the footer's email form, this one is rewarding to interact with, pulsing on mouseover and activation.
     * As previously mentioned, the form button also switches color to mimic the color of steel after being hit with a blacksmith's hammer.
     * The footer on this page, rather than a second signup form, contains links to the other two pages -- just in case the user is unsure of committing just yet.
-    * Successful signup leads to a success page of the CI form dump.
+    * Successful signup leads to a success page.
 
 ![Signup](docs/readme_images/signup.JPG)
 ![Signup](docs/readme_images/button.JPG)
@@ -137,6 +137,7 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
     * favicon was made using Convert.io
  * Quillbot
 	 * Quillbot was used to rewrite sections taken from https://www.familyhandyman.com/list/life-hacks-youll-wish-you-knew-sooner/ 
+
 ## Testing 
 
 ### Responsiveness
@@ -160,6 +161,7 @@ More screen size means more content, specifically the appearance of the mindset 
 Actual:
 
 Website succeeded expectations, showing no compatibility errors on Chrome, Firefox, Edge, Safari, or OperaGX. 
+
 
 ### Accessibility
 
@@ -272,31 +274,16 @@ Each item opened a new tab when clicked as expected and correct hover color was 
 
 **Footer Contact Information**
 
-Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
+Testing was performed on the email to ensure it opens in a new tab, and also sends to the correct email.
 
 _Steps to test Telephone Number_
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Click the phone number in the footer (01 123 456 789)
+1. Navigate to [Task Smasher - Home Page](https://acelliott1218.github.io/task-smasher/index.html) or [Task Smasher - Story Page](https://acelliott1218.github.io/task-smasher/our_story.html)
+2. Click the email in the footer (tasksmasher@gmail.com)
 
 Expected:
 
-A window is opened asking which device you would like to call from.
-
-Actual:
-
-Behavior was as expected and the window presented me with the following option to call:
-
-- Oukitel Mobile Phone
-
-_Steps to test Email Link_
-
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Click the email address in the footer (taco@gmail.com)
-
-Expected:
-
-A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
+A separate tab opens to an email application, with the relevant email prefilled.
 
 Actual:
 
