@@ -160,3 +160,166 @@ More screen size means more content, specifically the appearance of the mindset 
 Actual:
 
 Website succeeded expectations, showing no compatibility errors on Chrome, Firefox, Edge, Safari, or OperaGX. 
+
+### Accessibility
+
+[Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
+
+Testing was focused to ensure the following criteria were met:
+
+- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
+- Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+- HTML page lang attribute has been set
+- Aria properties have been implemented correctly
+- WCAG 2.1 Coding best practices being followed
+
+Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
+
+Images within DIVs, relying on a background image property, were not able to be given alt-text in a way that retains site functionality and feel. 
+
+### Lighthouse Testing
+
+![Home](docs/testing/index_lighthouse.JPG)
+
+![Story](docs/testing/story_lighthouse.JPG)
+
+![Signup](docs/testing/signup_lighthouse.JPG)
+
+### Functional Testing
+
+**Navigation Links**
+
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+
+| Navigation Link | Page to Load    |
+| --------------- | --------------- |
+| Smash Those Tasks!            | index.html      |
+| Our Story       | our_story.html |
+| Sign Up         | signup.html    |
+
+Links on all pages navigated to the correct pages as exptected.
+
+**Form Testing**
+
+The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
+
+_Scenario One - Correct Inputs on Footer_
+
+Steps to test:
+
+1. Navigate to [Task Smasher -- Home Page](https://acelliott1218.github.io/task-smasher/index.html) or [Task Smasher -- Our Story](https://acelliott1218.github.io/task-smasher/our_story.html)
+2. Scroll down to the form and input the following data:
+   - Email: email@gmail.com
+3. Click Submit
+4. User should be redirected to CI form success page.
+
+Expected:
+
+Form submits with no warnings or errors and user is redirected to CI form success page.
+
+Actual:
+
+Website behaved as expected with no errors or warnings and redirected to CI form success page.
+
+True on both pages.
+
+_Scenario Two - Correct Inputs on Signup Page_
+
+Steps to test:
+
+1. Navigate to [Task Smasher -- Signup Page](https://acelliott1218.github.io/task-smasher/signup.html)
+2. Scroll down to the form and input the following data:
+   - Email
+3. Click Submit
+4. User should be redirected to CI form success page.
+
+
+Expected:
+
+Form submits with no warnings or errors and user is redirected to CI form success page.
+
+Actual:
+
+Website behaved as expected with no errors or warnings and redirected to CI form success page.
+
+
+_Scenario Three - Not an Email_
+
+Steps to test:
+
+1. Navigate to [Task Smasher -- Signup Page](https://acelliott1218.github.io/task-smasher/signup.html),  [Task Smasher -- Our Story](https://acelliott1218.github.io/task-smasher/our_story.html) (footer),  [Task Smasher -- Home Page](https://acelliott1218.github.io/task-smasher/index.html) (footer)
+2. Scroll down to the form and input the following data:
+   - John.com
+3. Click Submit
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+
+
+**Footer Social Media Icons / Links**
+
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
+
+Each item opened a new tab when clicked as expected and correct hover color was present.
+
+**Footer Contact Information**
+
+Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
+
+_Steps to test Telephone Number_
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Click the phone number in the footer (01 123 456 789)
+
+Expected:
+
+A window is opened asking which device you would like to call from.
+
+Actual:
+
+Behavior was as expected and the window presented me with the following option to call:
+
+- Oukitel Mobile Phone
+
+_Steps to test Email Link_
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Click the email address in the footer (taco@gmail.com)
+
+Expected:
+
+A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
+
+Actual:
+
+Behavior was as expected and my outlook application was opened ready to send an email to the target address.
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+
+![Contact HTML Validator Results](docs/testing/index_validator.JPG)
+
+![Avdentures HTML Validator Results](docs/testing/story_validator.JPG)
+
+![Home HTML Validator Results](docs/testing/signup_validator.JPG)
+
+
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+
+![CSS Validator Results](docs/testing/css_validator.JPG)
+
+### Unfixed Bugs
+
+ - FA icons stick too closely to the headings on our_story.html, could
+   not find a quick fix for this. Will be fixed in a future release.
