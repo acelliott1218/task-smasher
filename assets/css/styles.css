@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 /* from love-running */
 * {
@@ -93,7 +93,8 @@ nav {
 }
 
 /* hides the hammer decoration */
-.wait-hide1,.wait-hide2 {
+.wait-hide1,
+.wait-hide2 {
     display: none;
 }
 
@@ -142,10 +143,10 @@ header {
     display: flex;
     justify-content: space-between;
     font-size: larger;
-    position:fixed;
-    background-color:#fafafa;
-    width:100%;
-    z-index:1;
+    position: fixed;
+    background-color: #fafafa;
+    width: 100%;
+    z-index: 1;
 }
 
 
@@ -153,7 +154,7 @@ header {
     font-size: 2rem;
     position: relative;
     align-self: center;
-    right:1rem;
+    right: 1rem;
 }
 
 
@@ -166,7 +167,7 @@ header>hr {
 }
 
 #mindset-text {
-    visibility:hidden;
+    visibility: hidden;
 }
 
 
@@ -189,28 +190,28 @@ header>hr {
     min-height: 50px;
     min-width: 90px;
     font-family: 'Oswald', sans-serif;
-    position:relative;
-    right:3px;
-    top:.5px;
+    position: relative;
+    right: 3px;
+    top: .5px;
 }
 
 #signup {
-    display:flex;
-    flex-grow:inherit;
-    justify-content:center;
-    margin-bottom:5px;
+    display: flex;
+    flex-grow: inherit;
+    justify-content: center;
+    margin-bottom: 5px;
 
 }
 
 #email_address {
     min-height: 50px;
-    width:200px;
-    margin-left:10px;
-    font-size:1rem;
+    width: 200px;
+    margin-left: 10px;
+    font-size: 1rem;
 }
 
 #email_address:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 
@@ -231,24 +232,18 @@ header>hr {
 }
 
 .signup-title {
-    font-size:2rem;
-    text-align:center;
-    text-decoration:underline;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .signup-reason {
-    font-size:1.3rem;
-    text-align:center;
-    max-width:390px;
+    font-size: 1.3rem;
+    text-align: center;
+    max-width: 390px;
 }
 
-/* code for the second subscribe form in the footer */
-#email2 {
-min-height: 50px;
-    width:200px;
-    margin-left:10px;
-    font-size:1rem;
-}
+
 
 /* Taken from the love-running project, some help from https://reintech.io/blog/creating-responsive-hero-section-with-css */
 #hero {
@@ -257,7 +252,7 @@ min-height: 50px;
     position: relative;
     margin: 0;
     display: flex;
-    border:1px rgba(58, 58, 58,.5) solid;
+    border: 1px rgba(58, 58, 58, .5) solid;
     box-shadow: #3a3a3a 1px 1px 1px 1.5px;
 
 }
@@ -281,7 +276,7 @@ footer {
 }
 
 #footer-div {
-    clear:both;
+    clear: both;
 }
 
 /* #social-networks {
@@ -293,9 +288,21 @@ footer {
 } */
 
 #networks-email {
-    display:flex;
-    justify-content:space-between;
+    display: flex;
+    justify-content: space-between;
     color: #fafafa
+}
+
+/* code for the second subscribe form in the footer */
+#email2 {
+    min-height: 50px;
+    width: 200px;
+    font-size: 1rem;
+}
+
+#subscribe {
+    display: flex;
+    justify-content: center;
 }
 
 #social-networks i {
@@ -304,7 +311,17 @@ footer {
 }
 
 .down {
-    align-self:flex-end
+    align-self: flex-end
+}
+
+.subscribe-form {
+    width: fit-content;
+    margin-top: 1rem;
+}
+
+#social-networks {
+    display: inline-flex;
+    list-style: none;
 }
 
 #social-networks a:hover {
@@ -326,14 +343,18 @@ footer {
     display: none;
 }
 
+#encouragement {
+    color: #fafafa;
+}
 
 /* tablet query */
 
 @media screen and (min-width:768px) {
 
     nav {
-        width:90%;
+        width: 90%;
     }
+
     #menu-buttons {
         flex-direction: row;
         font-size: large;
@@ -375,16 +396,25 @@ footer {
 
     /* styling for the signup page */
     #email_address {
-        min-width:500px;
+        min-width: 500px;
     }
 
-    .join-button{
-        top:1px;
+    .join-button {
+        top: 1px;
     }
 
     .signup-reason {
-        left:8rem;
-        position:relative;
+        left: 8rem;
+        position: relative;
+    }
+
+    .subscribe-form {
+        width: fit-content;
+        margin-top: 1rem;
+    }
+
+    #encouragement {
+        text-align:center;
     }
 }
 
@@ -400,13 +430,13 @@ footer {
     }
 
     header {
-        box-shadow:#3a3a3a 0px 1px 0px 0px;
-        border:rgba(58, 58, 58,.7) .5px solid;
+        box-shadow: #3a3a3a 0px 1px 0px 0px;
+        border: rgba(58, 58, 58, .7) .5px solid;
     }
 
     h1 {
         font-size: 3rem;
-        margin-bottom:0px;
+        margin-bottom: 0px;
     }
 
     .menu-toggle-label {
@@ -414,7 +444,7 @@ footer {
     }
 
     #menu-buttons {
-        padding-top:5px;
+        padding-top: 5px;
     }
 
 
@@ -430,6 +460,16 @@ footer {
         align-self: flex-end;
         position: relative;
         top: 4rem;
+    }
+
+    #email2 {
+        min-height: 50px;
+        width: 25rem;
+        font-size: 1rem;
+    }
+
+    #join2 {
+        width: 200px;
     }
 
 
@@ -568,62 +608,56 @@ footer {
         animation: pulse 2s infinite;
     }
 
-    /* styling for larger screens for signup.html */
 
-
-
-    .signup-footer {
-        margin-top:100px;
-    }
 }
 
 
 
 
-    /* large screen query */
-    @media screen and (min-width:1440px) {
+/* large screen query */
+@media screen and (min-width:1440px) {
 
-        #mindset-bg {
-            width: 40rem;
-        }
-
-        #push-right,
-        #push-left-2 {
-            left: 12%;
-        }
-
-        #push-right-2 {
-            padding-top: .5rem;
-        }
-
-        .bottom-left {
-            padding-top: .5rem;
-        }
-
-        #push-left {
-            left: 1%;
-        }
-
-        #big-picture {
-            left: 6%;
-            width: 25rem;
-            height: 25rem;
-        }
-
-        #big-picture-2 {
-            left: 6em;
-            width: 25rem;
-            height: 25rem;
-        }
-
-        #how-to-help {
-            padding-top: 0;
-        }
-
-        /* signup styling */
-
-        .join-button {
-            font-size:1rem;
-            top:2px;
-        }
+    #mindset-bg {
+        width: 40rem;
     }
+
+    #push-right,
+    #push-left-2 {
+        left: 12%;
+    }
+
+    #push-right-2 {
+        padding-top: .5rem;
+    }
+
+    .bottom-left {
+        padding-top: .5rem;
+    }
+
+    #push-left {
+        left: 1%;
+    }
+
+    #big-picture {
+        left: 6%;
+        width: 25rem;
+        height: 25rem;
+    }
+
+    #big-picture-2 {
+        left: 6em;
+        width: 25rem;
+        height: 25rem;
+    }
+
+    #how-to-help {
+        padding-top: 0;
+    }
+
+    /* signup styling */
+
+    .join-button {
+        font-size: 1rem;
+        top: 2px;
+    }
+}
