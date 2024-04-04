@@ -93,51 +93,21 @@ nav {
 }
 
 /* hides the hammer decoration */
-.wait-hide1,
-.wait-hide2 {
+.wait-hide1, .wait-hide2, #home-page:active .wait-hide1, #story-page:active .wait-hide1, #signup-page:active .wait-hide1  {
+    display: none;
+}
+
+/* shows hidden hammer on click */
+#story-page:hover .wait-hide1, #home-page:hover .wait-hide1, #signup-page:hover .wait-hide1, #home-page:active .wait-hide2, #story-page:active .wait-hide2, #signup-page:active .wait-hide2 {
+    display: inline-block;
+}
+
+/* hides the initial hammer on click */
+#home-page:active .wait-hide1, #story-page:active .wait-hide1, #signup-page:active .wait-hide1 {
     display: none;
 }
 
 
-/* allows the hammer decoration to be seen on mouse-over */
-#home-page:hover .wait-hide1 {
-    display: inline-block;
-}
-
-#story-page:hover .wait-hide1 {
-    display: inline-block;
-}
-
-#signup-page:hover .wait-hide1 {
-    display: inline-block;
-}
-
-/* hides the hidden hammer on click */
-#home-page:active .wait-hide1 {
-    display: none;
-}
-
-#story-page:active .wait-hide1 {
-    display: none;
-}
-
-#signup-page:active .wait-hide1 {
-    display: none;
-}
-
-/* changes to a different hammer icon on click */
-
-#home-page:active .wait-hide2 {
-    display: inline-block;
-}
-
-#story-page:active .wait-hide2 {
-    display: inline-block;
-}
-
-#signup-page:active .wait-hide2 {
-    display: inline-block;
-}
 
 header {
     display: flex;
