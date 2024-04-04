@@ -242,6 +242,13 @@ header>hr {
     max-width:390px;
 }
 
+/* code for the second subscribe form in the footer */
+#email2 {
+min-height: 50px;
+    width:200px;
+    margin-left:10px;
+    font-size:1rem;
+}
 
 /* Taken from the love-running project, some help from https://reintech.io/blog/creating-responsive-hero-section-with-css */
 #hero {
@@ -277,20 +284,28 @@ footer {
     clear:both;
 }
 
-#social-networks {
+/* #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+} */
+
+#networks-email {
+    display:flex;
+    justify-content:space-between;
+    color: #fafafa
 }
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #fafafa
 }
 
+.down {
+    align-self:flex-end
+}
 
 #social-networks a:hover {
     font-size: large;
