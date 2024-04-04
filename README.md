@@ -310,3 +310,40 @@ Behavior was as expected and my outlook application was opened ready to send an 
 
  - FA icons stick too closely to the headings on our_story.html, could
    not find a quick fix for this. Will be fixed in a future release.
+
+## Deployment
+
+### Version Control
+
+The site was created using Codeanywhere at first and, later, Gitpod, and pushed to github to the remote repository ‘task-smasher’.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add .``` - This command was used to add all changes made during the development process
+
+```git commit -m “commit message”``` - Used to commit the changes added through git add, along with commentary outlining what each commit did
+
+```git push``` - Sent all committed changes to the remote repository on Github.com
+
+### Deployment to Github Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully. 
+
+The live link can be found here - https://acelliott1218.github.io/task-smasher/index.html
+
+### Clone the Repository Code Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+
+The project will now of been cloned on your local machine for use.
