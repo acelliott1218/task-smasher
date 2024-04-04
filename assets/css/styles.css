@@ -349,6 +349,7 @@ footer {
     .h2-centered {
         text-align: center;
         font-size: 50px;
+        min-height:225px;
     }
 
     #menu-buttons li {
