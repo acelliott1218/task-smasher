@@ -136,7 +136,10 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
  * Convert.io
     * favicon was made using Convert.io
  * Quillbot
-    * Quillbot was used to rewrite sections taken from https://www.familyhandyman.com/list/life-hacks-youll-wish-you-knew-sooner/ 
+    * Quillbot was used to rewrite sections taken from https://www.familyhandyman.com/list/life-hacks-youll-wish-you-knew-sooner/
+* Grammarly
+    * The README and the lifehacks were both ran through Grammarly before final submission.
+
 
 ## Testing 
 
