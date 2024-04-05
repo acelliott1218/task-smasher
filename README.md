@@ -52,8 +52,8 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
    clear thing to do with minimal distraction.
    
 ![Mindset](docs/readme_images/mindset1.jpg)
-![Mindset](docs/readme_images/mindset2.jpg)
-![Mindset](docs/readme_images/mindset3.jpg)
+![MindsetTwo](docs/readme_images/mindset2.jpg)
+![MindsetThree](docs/readme_images/mindset3.jpg)
 
 ### Landing Page
 * The life-hacks themselves
@@ -80,7 +80,7 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
     * The last paragraph ends with a link to signup.html, further herding users to subscribe to the website and, hopefully, add to its content.
 
 ![story](docs/readme_images/story.jpg)
-![story](docs/readme_images/story-link.jpg)
+![storylink](docs/readme_images/story-link.jpg)
 
 ### Sign Up Page
 * Quick, to the point
@@ -93,9 +93,9 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
     * Successful signup leads to a success page.
 
 ![Signup](docs/readme_images/signup.jpg)
-![Signup](docs/readme_images/button.jpg)
-![Signup](docs/readme_images/signupfooter.jpg)
-![Signup](docs/readme_images/successpage.jpg)
+![SignupTwo](docs/readme_images/button.jpg)
+![SignupThree](docs/readme_images/signupfooter.jpg)
+![SignupFour](docs/readme_images/successpage.jpg)
 
 ### Existing Features
 
@@ -185,9 +185,9 @@ Images within DIVs, relying on a background image property, were not able to be 
 
 ![Home](docs/readme_images/index_lighthouse.jpg)
 
-![Story](docs/readme_images/story_lighthouse.jpg')
+![Story](docs/readme_images/story_lighthouse.jpg)
 
-![Signup](docs/readme_images/signup_lighthouse.jpg'')
+![Signup](docs/readme_images/signup_lighthouse.jpg)
 
 ### Functional Testing
 
@@ -294,17 +294,17 @@ Behavior was as expected and my outlook application was opened ready to send an 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
-![Contact HTML Validator Results](docs/readme_images/index_validator.jpg''')
+![Contact HTML Validator Results](docs/readme_images/index_validator.jpg)
 
-![Avdentures HTML Validator Results](docs/readme_images/story_validator.jpg'''')
+![Avdentures HTML Validator Results](docs/readme_images/story_validator.jpg)
 
-![Home HTML Validator Results](docs/readme_images/signup_validator.jpg''''')
+![Home HTML Validator Results](docs/readme_images/signup_validator.jpg)
 
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
 
-![CSS Validator Results](docs/readme_images/css_validator.jpg'''''')
+![CSS Validator Results](docs/readme_images/css_validator.jpg)
 
 ### Unfixed Bugs
 
