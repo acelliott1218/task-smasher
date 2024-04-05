@@ -375,14 +375,14 @@ General code snippets were taken from W3Schools and Stack Overflow, and credited
 
 All pictures with the exception of the highlighter life-hack image, which was AI-generated, were taken from Unsplash. The following creators in specific:
 
-[Moritz Mentges](https://unsplash.com/@mphotographym) -- Hero Image
-[Giu Vicente](https://unsplash.com/@giuvicente) -- Our Story focus image
-[Jonny Gios](https://unsplash.com/@supergios) -- Home page focus image
-[Maria Ziegler](https://unsplash.com/@schluesseldienstvergleich_eu)  -- Keys picture
-[charlesdeluvio](https://unsplash.com/@charlesdeluvio) -- Laundry picture
-[Gayatri Malhotra](https://unsplash.com/@gmalhotra) -- Dog picture
+* [Moritz Mentges](https://unsplash.com/@mphotographym) -- Hero Image
+* [Giu Vicente](https://unsplash.com/@giuvicente) -- Our Story focus image
+* [Jonny Gios](https://unsplash.com/@supergios) -- Home page focus image
+* [Maria Ziegler](https://unsplash.com/@schluesseldienstvergleich_eu)  -- Keys picture
+* [charlesdeluvio](https://unsplash.com/@charlesdeluvio) -- Laundry picture
+* [Gayatri Malhotra](https://unsplash.com/@gmalhotra) -- Dog picture
 
 
 ### Media
 
-[Rendernet](https://rendernet.ai/app/text-to-image) -- generated the book and lemons picture.
+* [Rendernet](https://rendernet.ai/app/text-to-image) -- generated the book and lemons picture.
