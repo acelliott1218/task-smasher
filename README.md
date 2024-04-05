@@ -347,3 +347,42 @@ Navigate to the GitHub Repository you want to clone to use locally:
 - Type git clone copied-git-url into the IDE terminal
 
 The project will now of been cloned on your local machine for use.
+## Credits 
+ * [Taco's Travels](https://github.com/Gareth-McGirr/tacos-travels)
+	 * This README was made using the Taco's Travels README.
+ * [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) 
+	* used multiple snippets of code as the basis for portions of Task Smasher, and the images on the Our Story and home pages are inspired by its design.
+ * [FamilyHandyMan](https://www.familyhandyman.com/list/life-hacks-youll-wish-you-knew-sooner/ ) 
+	* Their life-hack images were present on the home page on phones and tablets in pre-final versions, as a sort of proof of content. These images are since replaced.
+	* Content of their relevant life-hack was fed into Quillbot, then rewritten further.
+ * [Hubspot](https://blog.hubspot.com/website/change-background-color-html-vb)
+	 * Initial gradient background code came from them
+	
+	
+ * [Florin-pop](https://www.florin-pop.com/blog/2019/03/css-pulse-effect/)
+
+	 * Huge props for the pulse animation, which is used repeatedly throughout the site.
+ * **ChatGPT**
+	* Wrote the first mindset box
+ * **Quibble**
+	 * Rewrote the lifehack content to have a more fresh feel
+ * **Grammarly**
+	 * Used to check spelling, second content revision after Quibble.
+
+General code snippets were taken from W3Schools and Stack Overflow, credited where relevant.
+
+### Content 
+
+All pictures with the exception of the highlighter life-hack image, which was AI generated,  was taken from Unsplash. The following creators in specific:
+
+[Moritz Mentges](https://unsplash.com/@mphotographym) -- Hero Image
+[Giu Vicente](https://unsplash.com/@giuvicente) -- Our Story focus image
+[Jonny Gios](https://unsplash.com/@supergios) -- Home page focus image
+[Maria Ziegler](https://unsplash.com/@schluesseldienstvergleich_eu)  -- Keys picture
+[charlesdeluvio](https://unsplash.com/@charlesdeluvio) -- Laundry picture
+[Gayatri Malhotra](https://unsplash.com/@gmalhotra) -- Dog picture
+
+
+### Media
+
+[Rendernet](https://rendernet.ai/app/text-to-image) -- generated the book and lemons picture.
