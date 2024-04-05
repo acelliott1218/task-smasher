@@ -2,7 +2,7 @@
 
 Task Smasher is a life-hack website aiming to create not just a useful resource, but also a community of time-starved people -- ultimately, with the motivation of gaining more free-time. Currently, the idea is that more and more people will send in their own life-hacks, and the best of them will replace the previous winners every month. Along with helpful content, the site is designed to always have the option to join the newsletter or otherwise get in touch readily-available, since community-interaction is vital for its survival.
 
-![Mockup](docs/readme_images/mockup.JPG)
+![Mockup](docs/readme_images/mockup.jpg)
 
 ## Features 
 
@@ -13,17 +13,17 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
     * The fixed position of the nav bar will keep users from having to scroll back up to the top to reach the two other pages.
     * Each page has its name underlined on the nav menu, meaning there's no way to get confused about which page a user is on.
 
-![Nav Menu](docs/readme_images/navigation_menu.JPG)
+![Nav Menu](docs/readme_images/navigation_menu.jpg)
 * Footer
     * Links to Youtube, Instagram, and Facebook, all of which open in a new tab -- these are focused towards the bottom-left side of the footer.
     * A subscribe bar is present in the footer on the pages index.html and our_story.html, allowing readers to subscribe without going to signup.html.
 
-![Footer](docs/readme_images/footer.JPG)
+![Footer](docs/readme_images/footer.jpg)
 * Favicon
     * A miniature version of the image found on index.html on larger devices serves as the favicon.
     * By using an icon that sticks with the blacksmith aesthetic of the website, users will easily be able to tell which tab contains Task Smasher.
 
-![Favicon](docs/readme_images/favicon.JPG)
+![Favicon](docs/readme_images/favicon.jpg)
 * Satisfying Buttons
     * Interactive elements across the site are designed in such a way to make it feel good to click and hover them.
     * This means that the navbar icons show a hammer on mouseover, and a downward-facing hammer on click.
@@ -31,7 +31,7 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
     * The signup button on signup.html will also change to orange on click, making the illusion of a hammer hitting hot iron when combined with the grey pulsing animation
     * The signup form in the footer has no effects like this, since that would distract from the site's main content and become awkward for the user experience.
 
-![Buttons](docs/readme_images/satisfying-buttons.JPG)
+![Buttons](docs/readme_images/satisfying-buttons.jpg)
 
  - Hero Image
 	 * A large picture of a hammer striking the ground, surrounded by broken
@@ -39,7 +39,7 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
 	 * This picture is present on all screens and on all devices, helping   
    maintain a consistent feel across the site.
 
-![HeroImage](docs/readme_images/satisfying-buttons.JPG)
+![HeroImage](docs/readme_images/satisfying-buttons.jpg)
 
  - Secondary mindset box
 	 * On larger devices, a box between the hero image and the page's
@@ -51,9 +51,9 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
 	 * This allows the signup page to be short and succinct, having only one
    clear thing to do with minimal distraction.
    
-![Mindset](docs/readme_images/mindset1.JPG)
-![Mindset](docs/readme_images/mindset2.JPG)
-![Mindset](docs/readme_images/mindset3.JPG)
+![Mindset](docs/readme_images/mindset1.jpg)
+![Mindset](docs/readme_images/mindset2.jpg)
+![Mindset](docs/readme_images/mindset3.jpg)
 
 ### Landing Page
 * The life-hacks themselves
@@ -61,13 +61,13 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
     * Users will submit their own lifehacks through the email in the footer, or by subscribing and getting the email that way.
     * Every month, four new lifehacks will be selected for the front-page. This friendly competition will encourage users to consistently return to the site.
 
-![Landing Page Image](docs/readme_images/life_hacks.JPG)
+![Landing Page Image](docs/readme_images/life_hacks.jpg)
 * Secondary attention-grabbing picture
     * On larger devices, the pictures of the lifehack are replaced by a central picture of a blacksmith.
     * This allows users on larger devices to have greater visual appeal, since the short nature of the life-hack descriptions means less interactivity on devices which require less scrolling.
     * Further, this image is interactive, pulsing when moused over.
 
-![Blacksmith](docs/readme_images/landing_page_image.JPG)
+![Blacksmith](docs/readme_images/landing_page_image.jpg)
 
 
 
@@ -79,8 +79,8 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
     * By sharing these personal backstories, as well as a clear goal, the story page will hopefully generate a humanizing response and emotional tie-in with the users.
     * The last paragraph ends with a link to signup.html, further herding users to subscribe to the website and, hopefully, add to its content.
 
-![story](docs/readme_images/story.JPG)
-![story](docs/readme_images/story-link.JPG)
+![story](docs/readme_images/story.jpg)
+![story](docs/readme_images/story-link.jpg)
 
 ### Sign Up Page
 * Quick, to the point
@@ -92,10 +92,10 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
     * The footer on this page, rather than a second signup form, contains links to the other two pages -- just in case the user is unsure of committing just yet.
     * Successful signup leads to a success page.
 
-![Signup](docs/readme_images/signup.JPG)
-![Signup](docs/readme_images/button.JPG)
-![Signup](docs/readme_images/signupfooter.JPG)
-![Signup](docs/readme_images/successpage.JPG)
+![Signup](docs/readme_images/signup.jpg)
+![Signup](docs/readme_images/button.jpg)
+![Signup](docs/readme_images/signupfooter.jpg)
+![Signup](docs/readme_images/successpage.jpg)
 
 ### Existing Features
 
@@ -183,11 +183,11 @@ Images within DIVs, relying on a background image property, were not able to be 
 
 ### Lighthouse Testing
 
-![Home](docs/readme_images/index_lighthouse.JPG)
+![Home](docs/readme_images/index_lighthouse.jpg)
 
-![Story](docs/readme_images/story_lighthouse.JPG)
+![Story](docs/readme_images/story_lighthouse.jpg')
 
-![Signup](docs/readme_images/signup_lighthouse.JPG)
+![Signup](docs/readme_images/signup_lighthouse.jpg'')
 
 ### Functional Testing
 
@@ -294,17 +294,17 @@ Behavior was as expected and my outlook application was opened ready to send an 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
-![Contact HTML Validator Results](docs/readme_images/index_validator.JPG)
+![Contact HTML Validator Results](docs/readme_images/index_validator.jpg''')
 
-![Avdentures HTML Validator Results](docs/readme_images/story_validator.JPG)
+![Avdentures HTML Validator Results](docs/readme_images/story_validator.jpg'''')
 
-![Home HTML Validator Results](docs/readme_images/signup_validator.JPG)
+![Home HTML Validator Results](docs/readme_images/signup_validator.jpg''''')
 
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
 
-![CSS Validator Results](docs/readme_images/css_validator.JPG)
+![CSS Validator Results](docs/readme_images/css_validator.jpg'''''')
 
 ### Unfixed Bugs
 
