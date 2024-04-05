@@ -39,7 +39,7 @@ Task Smasher is a life-hack website aiming to create not just a useful resource,
 	 * This picture is present on all screens and on all devices, helping   
    maintain a consistent feel across the site.
 
-![HeroImage](docs/readme_images/satisfying-buttons.jpg)
+![HeroImage](docs/readme_images/hero-image.jpg)
 
  - Secondary mindset box
 	 * On larger devices, a box between the hero image and the page's
@@ -294,11 +294,11 @@ Behavior was as expected and my outlook application was opened ready to send an 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
-![Contact HTML Validator Results](docs/readme_images/index_validator.jpg)
+![Contact HTML Validator Results](docs/readme_images/signup_validator.jpg)
 
 ![Avdentures HTML Validator Results](docs/readme_images/story_validator.jpg)
 
-![Home HTML Validator Results](docs/readme_images/signup_validator.jpg)
+![Home HTML Validator Results](docs/readme_images/home_validator.jpg)
 
 
 - CSS
