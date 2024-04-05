@@ -187,7 +187,7 @@ Images within DIVs, relying on a background image property, were not able to be 
 
 ![Story](docs/readme_images/story_lighthouse.jpg)
 
-![Signup](docs/readme_images/signup_lighthouse.jpg)
+![Signup](docs/readme_images/signup-lighthouse.jpg)
 
 ### Functional Testing
 
@@ -294,11 +294,11 @@ Behavior was as expected and my outlook application was opened ready to send an 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
-![Contact HTML Validator Results](docs/readme_images/signup_validator.jpg)
+![Contact HTML Validator Results](docs/readme_images/signup-validator.jpg)
 
 ![Avdentures HTML Validator Results](docs/readme_images/story_validator.jpg)
 
-![Home HTML Validator Results](docs/readme_images/home_validator.jpg)
+![Home HTML Validator Results](docs/readme_images/index_validator.jpg)
 
 
 - CSS
